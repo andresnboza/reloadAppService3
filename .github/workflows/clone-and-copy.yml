@@ -16,7 +16,7 @@ jobs:
           path: ./reloadAppScripts
       - name: List files in scripts folder
         run: |
-          cp ReadmeAppService1.md reloadAppScripts/ReadmeAppService3.md && cd reloadAppScripts && ls
+          cp ReadmeAppService3.md reloadAppScripts/ReadmeAppService3.md && cd reloadAppScripts && ls
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
