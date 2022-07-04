@@ -1,4 +1,4 @@
-update:
+push:
 	git add .
-	git commit -m "update on the scripts"
+	git commit -m "update"
 	git push
